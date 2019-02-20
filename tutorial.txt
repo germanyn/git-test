@@ -1,12 +1,46 @@
-https://www.youtube.com/watch?v=SWYqp7iY_Tc
+-> Básico
 
-git init
-git add <file>
-git status
-git commit
-git push
-git pul
-git clone
+  https://www.youtube.com/watch?v=SWYqp7iY_Tc
 
-git config --global user.name 'xxx'
-git config --global user.email 'xxx'
+  git init
+  git add <file>
+  git status
+  git commit
+  git push
+  git pull
+  git clone
+
+-> Arquivos de exemplo
+
+  touch app.js
+  touch index.html
+
+-> Configuracão de usuário
+  
+  git config --global user.name 'xxx'
+  git config --global user.email 'xxx'
+
+-> Adicionar/remover arquivos commit (stage)
+
+  git add *.html
+  git add . (adicionar tudo)
+  
+  git rm --cached <file>
+
+  git commit...
+  Abre o editor "vim"
+  Apertar "i" para modo "insert"
+  Escrever comentário de commit
+  Apertar "esc"
+  Digitar ":wq"
+  Apertar "enter"
+
+  git commit -m 'Alteração app.js"
+
+-> Ignorar arquivos/pastas
+
+  touch .gitignore
+
+  tutorial.txt
+  /diretorio
+  node_modules
