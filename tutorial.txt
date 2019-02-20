@@ -44,3 +44,19 @@
   tutorial.txt
   /diretorio
   node_modules
+
+-> Branchs
+  
+  git branch login (cria branch)
+  git branch (lista as branch)
+  git checkout login (vai pra branch)
+
+
+Anexos:
+-> Vídeo tutorial: https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+-> Dicas de commit: Check Out These 5 Git Tips Before Your Next Commit
+  https://medium.com/walmartlabs/check-out-these-5-git-tips-before-your-next-commit-c1c7a5ae34d1
+
+-> Referência git
+  https://git-scm.com/docs
