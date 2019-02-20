@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=SWYqp7iY_Tc
+
+git init
+git add <file>
+git status
+git commit
+git push
+git pul
+git clone
+
+git config --global user.name 'xxx'
+git config --global user.email 'xxx'
